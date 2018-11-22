@@ -13,6 +13,7 @@ print(user['first_name'])
 
 car = {'make': 'Ford', 'model': 'Mustang', 'year': 1970}
 
+# parse to JSON
 carJSON = json.dumps(car)
 
 print(carJSON)
